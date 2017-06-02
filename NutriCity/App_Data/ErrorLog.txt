@@ -1,0 +1,18 @@
+********** 02-Jun-17 3:51:20 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\Takunda Chikondo\Desktop\NutriCity 30.05.17\NutriCity\NutriCity\Logic\PayPalFunctions.cs:line 193
+
+********** 02-Jun-17 4:05:34 PM **********
+Exception Type: System.Net.WebException
+Exception: The request was aborted: Could not create SSL/TLS secure channel.
+Source: HttpCall in PayPalFunction.cs
+Stack Trace: 
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at NVPAPICaller.HttpCall(String NvpRequest) in C:\Users\Takunda Chikondo\Desktop\NutriCity 30.05.17\NutriCity\NutriCity\Logic\PayPalFunctions.cs:line 194
+
