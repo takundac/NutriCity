@@ -18,6 +18,11 @@ body {
     white-space: normal;
 }
 
+.navbar-custom {
+    color: #0f006f;
+    background-color: #0f006f;
+}
+
 /* Set widths on the form inputs since otherwise they're 100% wide */
 input[type="text"],
 input[type="password"],

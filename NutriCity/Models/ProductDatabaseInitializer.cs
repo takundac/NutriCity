@@ -29,7 +29,7 @@ namespace NutriCity.Models
                 new Category
                 { 
                     CategoryID = 3, 
-                    CategoryName = "Dairy & Baking" 
+                    CategoryName = "Dairy And Baking" 
                 }, 
                 new Category 
                 { 
@@ -50,10 +50,10 @@ namespace NutriCity.Models
                 new Product 
                 { 
                     ProductID = 1, 
-                    ProductName = " Mineral Water", 
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 22.50, 
+                    ProductName = "Aquelle Still Mineral Water 500ml each", 
+                    Description = "500 ml", 
+                    ImagePath="Aquelle-500.jpg", 
+                    UnitPrice = 4.90, 
                     CategoryID = 1 
                 }, 
                 new Product 
