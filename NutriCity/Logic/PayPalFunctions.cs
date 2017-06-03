@@ -1,16 +1,11 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Specialized;
 using System.IO;
 using System.Net;
 using System.Text;
-using System.Data;
-using System.Configuration;
 using System.Web;
-using NutriCity;
 using NutriCity.Models;
 using System.Collections.Generic;
-using System.Linq;
 
 public class NVPAPICaller
 {
@@ -33,12 +28,11 @@ public class NVPAPICaller
     //Replace <Your API Username> with your API Username
     //Replace <Your API Password> with your API Password
     //Replace <Your Signature> with your Signature
-    public string APIUsername = "";
-    private string APIPassword = "";
-    private string APISignature = "";
+    public string APIUsername = "nutriCitydevelopers-facilitator_api1.gmail.com";
+    private string APIPassword = "RNUDEMR2BYAQ4XD4";
+    private string APISignature = "An5ns1Kso7MWUdW4ErQKJJJ4qi4-A-2u0IAY0TQo3-us1Hwlx20Id4k-";
     private string Subject = "";
     private string BNCode = "PP-ECWizard";
-
 
     //HttpWebRequest Timeout specified in milliseconds 
     private const int Timeout = 15000;
@@ -60,7 +54,7 @@ public class NVPAPICaller
         }
 
         string returnURL = "http://localhost:53909/Checkout/CheckoutReview.aspx";
-        string cancelURL = "http://localhost:53909/Checkout/CheckoutCancel.aspx";
+        string cancelURL = "http://localhost:44300/Checkout/CheckoutCancel.aspx";
 
         NVPCodec encoder = new NVPCodec();
         encoder["METHOD"] = "SetExpressCheckout";
@@ -187,30 +181,32 @@ public class NVPAPICaller
         HttpWebRequest objRequest = (HttpWebRequest)WebRequest.Create(url);
         objRequest.Timeout = Timeout;
         objRequest.Method = "POST";
-        objRequest.ContentLength = strPost.Length;
+        ///objRequest.ContentLength = strPost.Length;
 
         try
         {
             using (StreamWriter myWriter = new StreamWriter(objRequest.GetRequestStream()))
             {
                 myWriter.Write(strPost);
+                myWriter.Close();
             }
+                
         }
         catch (Exception e)
         {
             // Log the exception.
-            NutriCity.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
+           // NutriCity.Logic.ExceptionUtility.LogException(e, "HttpCall in PayPalFunction.cs");
         }
 
-
+        //ServicePointManager.Expect100Continue = true;
+        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         //Retrieve the Response returned from the NVP API call to PayPal.
-        HttpWebResponse objResponse = (HttpWebResponse)objRequest.GetResponse();
+       HttpWebResponse objResponse = (HttpWebResponse)objRequest.GetResponse();
         string result;
         using (StreamReader sr = new StreamReader(objResponse.GetResponseStream()))
         {
             result = sr.ReadToEnd();
         }
-
         return result;
     }
 

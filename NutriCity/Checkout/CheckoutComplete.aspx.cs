@@ -44,7 +44,7 @@ namespace NutriCity.Checkout
                     ProductContext _db = new ProductContext();
                     // Get the current order id.
                     int currentOrderId = -1;
-                    if ((string)Session["currentOrderId"] != string.Empty)
+                    if ((Session["currentOrderId"]).ToString() != string.Empty)
                     {
                         currentOrderId = Convert.ToInt32(Session["currentOrderID"]);
                     }

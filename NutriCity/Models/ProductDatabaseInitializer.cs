@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,7 +29,8 @@ namespace NutriCity.Models
                 new Category
                 { 
                     CategoryID = 3, 
-                    CategoryName = "Dairy and Baking" 
+
+                    CategoryName = "Dairy And Baking" 
                 }, 
                 new Category 
                 { 
@@ -50,149 +51,159 @@ namespace NutriCity.Models
                 new Product 
                 { 
                     ProductID = 1, 
-                    ProductName = " Mineral Water", 
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 22.50, 
+                    ProductName = "Glaceau Vitamin Water Spark", 
+                    Description = "Premium Vitamin Water spark flavoured 500ml", 
+                    ImagePath="Glaceau_Vitamin_Water_spark-500.jpg", 
+                    UnitPrice = 14.99, 
                     CategoryID = 1 
                 }, 
                 new Product 
                 { 
                     ProductID = 2, 
-                    ProductName = "Lemonade", 
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 15.95, 
+                    ProductName = "Glaceau Vitamin Water Power-C", 
+                    Description = "Premium Vitamin Water Power-C flavoured 500ml", 
+                    ImagePath="Glaceau_Vitamin_Water_powerc-500.jpg", 
+                    UnitPrice = 14.99, 
                     CategoryID = 1 
                 }, 
                 new Product 
                 { 
                     ProductID = 3, 
-                    ProductName = "Tropical ", 
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 32.99, 
+                    ProductName = "Glaceau Vitamin Water Rejuve", 
+                    Description = "Premium Vitamin Water Rejuve flavoured 500ml", 
+                    ImagePath="Glaceau_Vitamin_Water_rejuve-500.jpg", 
+                    UnitPrice = 14.99, 
                     CategoryID = 1 
                 }, 
                 new Product 
                 { 
                     ProductID = 4, 
-                    ProductName = "Mixed Berry",
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 8.95, 
-                    CategoryID = 1 
+                    ProductName = "Clover Feta Cheese",
+                    Description = "Clover Feta Cheese 200g", 
+                    ImagePath="Clover_Feta_Cheese_200.jpg", 
+                    UnitPrice = 32.95, 
+                    CategoryID = 3 
                 },
                 new Product 
                 { 
                     ProductID = 5, 
-                    ProductName = "Naked 100% Coconut Water ", 
-                    Description = "5 Liter", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 34.95, 
-                    CategoryID = 1 
+                    ProductName = "Clover Feta Cheese", 
+                    Description = "Clover Feta Cheese 400g", 
+                    ImagePath="Clover_Feta_Cheese_400.jpg", 
+                    UnitPrice = 44.95, 
+                    CategoryID = 3 
                 }, 
                 new Product 
                 { 
                     ProductID = 6, 
-                    ProductName = "Nature's Path Variety Pack", 
-                    Description = "1kg", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 95.00, 
-                    CategoryID = 2 
+                    ProductName = "Parmalat Plain Yoghurt", 
+                    Description = "Fabulite Smooth Plain Yoghurt 1kg", 
+                    ImagePath="Parmalat_Fabulite_Plain_Yoghurt_1.jpg", 
+                    UnitPrice = 33.00, 
+                    CategoryID = 3 
                 }, 
                 new Product 
                 { 
                     ProductID = 7, 
-                    ProductName = "Arrowhead Mills Puffed Rice ", 
-                    Description = "1kg", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 4.95, 
-                    CategoryID = 2 
+                    ProductName = "Parmalat Strawberry, Banana, Cherry & Vanilla", 
+                    Description = "Parmalat Fabulite Strawberry Banana Cherry & Vanilla Yoghurt 6ea", 
+                    ImagePath="Parmalat_Strawberry_Banana_Cherry_Vanilla_6.jpg", 
+                    UnitPrice = 22.95, 
+                    CategoryID = 3 
                 }, 
                 new Product 
                 { 
                     ProductID = 8, 
-                    ProductName = "Nature's Path Oatmeal", 
-                    Description = "1kg", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 2.95, 
-                    CategoryID = 2 
-                }, 
-                new Product 
-                { 
-                    ProductID = 9, 
-                    ProductName = "Old Wessex Oatmeal", 
-                    Description = "1kg", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 32.95, 
-                    CategoryID = 2 
-                }, 
-                new Product 
-                { 
-                    ProductID = 10, 
-                    ProductName = "Dairy & Baking", 
-                    Description = "This toy truck has a real gas powered engine. Requires regular tune ups.", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 15.00, 
+                    ProductName = "Parmalat Caramel Flavoured Yoghurt", 
+                    Description = "Parmalat Caramel Flavoured Smooth Low Fat Yoghurt 175g", 
+                    ImagePath="Parmalat_Caramel_175.jpg", 
+                    UnitPrice = 8.95, 
                     CategoryID = 3 
                 }, 
                 new Product 
                 {
+                     ProductID = 8,
+                    ProductName = "Parmalat Vanilla Flavoured Yoghurt",
+                    Description = "Parmalat Vanilla Flavoured Smooth Yoghurt 175g",
+                    ImagePath="560503_EA.jpg",
+                    UnitPrice = 8.95,
+                    CategoryID = 3
+                }, 
+                new Product 
+                { 
+                    ProductID = 10, 
+                   
+                    ProductName = "Kellogg's All Bran Flakes", 
+                    Description = "Kellogg's All Bran Flakes 750g.", 
+                    ImagePath="Kellogs_AllBran_750.jpg", 
+                    UnitPrice = 47.00, 
+                    CategoryID = 2 
+                }, 
+                new Product 
+                {
                     ProductID = 11, 
-                    ProductName = "Dairy & Baking", 
-                    Description = "You will have endless fun with this one quarter sized fire truck.", 
-                    ImagePath="soon.jpg", 
-                    UnitPrice = 26.00, 
-                    CategoryID = 3 
+                    ProductName = "Bokomo Weetbix", 
+                    Description = "Bokomo Weetbix 1.35kg.", 
+                    ImagePath="Bokomo_Weetbix_1.35.jpg", 
+                    UnitPrice = 63.00, 
+                    CategoryID = 2 
                  }, 
                  new Product 
                  { 
                      ProductID = 12, 
-                     ProductName = "Dairy & Baking", 
-                     Description = "This fun toy truck can be used to tow other trucks that are not as big.", 
-                     ImagePath="soon.jpg", 
-                     UnitPrice = 29.00, 
-                     CategoryID = 3 
+
+                     ProductName = "Jungle Oats", 
+                     Description = "Jungle Oats 10kg.", 
+                     ImagePath="JungleOats_10.jpg", 
+                     UnitPrice = 283.00, 
+                     CategoryID = 2 
                  }, 
                  new Product 
                  { 
                      ProductID = 13, 
-                     ProductName = "Big Ship", 
-                     Description = "Is it a boat or a ship. Let this floating vehicle decide by using its "
-                     + "artifically intelligent computer brain!", 
-                     ImagePath="soon.jpg", 
-                     UnitPrice = 95.00, 
-                     CategoryID = 4 
+                     ProductName = "Jungle Oatso easy", 
+                     Description = "Jungle Oatso easy Banana Toffee 500g ", 
+                     ImagePath="Jungle_Oatso_easy_500.jpg", 
+                     UnitPrice = 38.00, 
+                     CategoryID = 2 
                  }, 
                  new Product 
                  { 
                      ProductID = 14, 
-                     ProductName = "Paper Boat", 
-                     Description = "Floating fun for all! This toy boat can be assembled in seconds. Floats for minutes!"
-                     + "Some folding required.", 
-                     ImagePath="soon.jpg", 
-                     UnitPrice = 4.95, 
-                     CategoryID = 4 
+                     ProductName = "Kellogg's Special K", 
+                     Description = "Kellogg's Special K cereal, low in fat, 500g", 
+                     ImagePath="Kellogg's_Special_K_Cereal_500.jpg", 
+                     UnitPrice = 34.95, 
+                     CategoryID = 2 
                  }, 
                  new Product 
                  { 
                      ProductID = 15, 
-                     ProductName = "Sail Boat", 
-                     Description = "Put this fun toy sail boat in the water and let it go!", 
-                     ImagePath="soon.jpg", 
-                     UnitPrice = 42.95, 
-                     CategoryID = 4 
+                     ProductName = "Jungle Oats", 
+                     Description = "Jungle Oats Regular 1kg x 6", 
+                     ImagePath="Jungle_Oats_regular_1.jpg", 
+                     UnitPrice = 142.95, 
+                     CategoryID = 2 
                  }, 
                  new Product 
                  { 
                      ProductID = 16, 
-                     ProductName = "Rocket", 
-                     Description = "This fun rocket will travel up to a height of 200 feet.", 
-                     ImagePath="soon.jpg", 
-                     UnitPrice = 122.95, 
-                     CategoryID = 5 
-                 } 
+                     ProductName = "Jungle Energy Crunch", 
+                     Description = "Jungle Energy Crunch Light, Peach and Apricot 500g", 
+                     ImagePath="Jungle_Energy_Crunch_500.jpg", 
+                     UnitPrice = 36.95, 
+                     CategoryID = 2 
+                 },
+                 new Product
+                 {
+                     ProductID = 16,
+                     ProductName = "Jungle Energy Crunch",
+                     Description = "Jungle Energy Crunch, Nuts and Raisins 750g",
+                     ImagePath="Jungle_Energy_Crunch_750.jpg",
+                     UnitPrice = 36.95,
+                     CategoryID = 2
+                 }
+                 
             }; 
           return products;
         }
