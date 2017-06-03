@@ -47,23 +47,18 @@ namespace NutriCity
             app.UseTwoFactorRememberBrowserCookie(DefaultAuthenticationTypes.TwoFactorRememberBrowserCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
-            //app.UseMicrosoftAccountAuthentication(
-            //    clientId: "",
-            //    clientSecret: "");
+           
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "744460038213-ns9sajnrr596o0jphnau8egijqh6sobt.apps.googleusercontent.com",
 
-            //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+                ClientSecret = "KJj9xEvZIByST3SnfSSy_l0Y"
+            });
+          
+            app.UseFacebookAuthentication(
+               appId: "312605972494678",
+               appSecret: "43bc5fd54c391c75a3887fd85f4dd18f");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
-
-            //app.UseGoogleAuthentication();
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
         }
     }
 }
