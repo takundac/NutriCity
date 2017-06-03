@@ -29,7 +29,7 @@ namespace NutriCity.Models
                 new Category
                 { 
                     CategoryID = 3, 
-                    CategoryName = "Dairy & Baking" 
+                    CategoryName = "Dairy and Baking" 
                 }, 
                 new Category 
                 { 
@@ -131,7 +131,7 @@ namespace NutriCity.Models
                 new Product 
                 { 
                     ProductID = 10, 
-                    ProductName = "Early Truck", 
+                    ProductName = "Dairy & Baking", 
                     Description = "This toy truck has a real gas powered engine. Requires regular tune ups.", 
                     ImagePath="soon.jpg", 
                     UnitPrice = 15.00, 
@@ -140,7 +140,7 @@ namespace NutriCity.Models
                 new Product 
                 {
                     ProductID = 11, 
-                    ProductName = "Fire Truck", 
+                    ProductName = "Dairy & Baking", 
                     Description = "You will have endless fun with this one quarter sized fire truck.", 
                     ImagePath="soon.jpg", 
                     UnitPrice = 26.00, 
@@ -149,7 +149,7 @@ namespace NutriCity.Models
                  new Product 
                  { 
                      ProductID = 12, 
-                     ProductName = "Big Truck", 
+                     ProductName = "Dairy & Baking", 
                      Description = "This fun toy truck can be used to tow other trucks that are not as big.", 
                      ImagePath="soon.jpg", 
                      UnitPrice = 29.00, 
