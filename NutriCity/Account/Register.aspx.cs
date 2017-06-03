@@ -25,6 +25,11 @@ namespace NutriCity.Account
                 //manager.SendEmail(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>.");
 
                 signInManager.SignIn( user, isPersistent: false, rememberBrowser: false);
+
+               NutriCity.Logic.ShoppingCartActions usersShoppingCart = new NutriCity.Logic.ShoppingCartActions();
+                string cartId = usersShoppingCart.GetCartId();
+                usersShoppingCart.MigrateCart(cartId, user.Id);
+
                 IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
             }
             else 

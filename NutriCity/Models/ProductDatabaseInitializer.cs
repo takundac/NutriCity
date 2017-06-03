@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -29,6 +29,7 @@ namespace NutriCity.Models
                 new Category
                 { 
                     CategoryID = 3, 
+
                     CategoryName = "Dairy And Baking" 
                 }, 
                 new Category 
@@ -131,6 +132,7 @@ namespace NutriCity.Models
                 new Product 
                 { 
                     ProductID = 10, 
+                   
                     ProductName = "Kellogg's All Bran Flakes", 
                     Description = "Kellogg's All Bran Flakes 750g.", 
                     ImagePath="Kellogs_AllBran_750.jpg", 
@@ -149,6 +151,7 @@ namespace NutriCity.Models
                  new Product 
                  { 
                      ProductID = 12, 
+
                      ProductName = "Jungle Oats", 
                      Description = "Jungle Oats 10kg.", 
                      ImagePath="JungleOats_10.jpg", 
