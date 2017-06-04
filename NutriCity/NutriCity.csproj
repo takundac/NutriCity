@@ -213,6 +213,7 @@
     <Content Include="Content\shop-item.css" />
     <Content Include="css\bootstrapTheme.css" />
     <Content Include="css\round-about.css" />
+    <Content Include="css\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -224,6 +225,8 @@
     <Content Include="Checkout\Web.config" />
     <Content Include="AboutUs.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\food2.jpeg.jpg" />
+    <Content Include="Images\food4.jpeg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\placehold.png" />
     <Content Include="ProductDetails.aspx" />

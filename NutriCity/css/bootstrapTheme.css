@@ -61,6 +61,8 @@ h4 {
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: forestgreen;
+    width: 200px;
+    height: 100px;
 }
 
 .carousel-indicators li {
@@ -81,6 +83,11 @@ h4 {
 
 .item span {
     font-style: normal;
+}
+.image1 {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
 
 .panel {
@@ -218,5 +225,10 @@ footer .glyphicon {
 
     .glyphicon glyphicon-shopping-cart {
         background-color: forestgreen;
+    }
+
+    .carousel-images{
+        height:100px;
+        width:200px;
     }
 }

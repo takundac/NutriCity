@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <asp:Image ID="Image1" runat="server" visible="false"></asp:Image>
+    <asp:Image ID="Image1" runat="server" Visible="false"></asp:Image>
 
     <body>
         <div class="jumbotron text-center">
@@ -30,9 +30,9 @@
                 <div class="col-sm-8">
                     <h2>About NutriCity</h2>
                     <br>
-                    <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                    <h4>NutriCity is an innovator and the absolute leader in the booming healthy fast-casual food industry. Today’s customer has an insatiable, growing appetite for nutritious, delicious food and drinks, unlike the unhealthy fare offered by other quick-service food franchises. </h4>
                     <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>We are perfectly positioned to meet this demand, providing our guests with an extraordinary health experience unlike any they’ve ever tasted. We can confidently claim that our menu is unlike anything else offered in the industry. Whether you're looking for a refreshing mid-afternoon smoothie or a hearty meal (including wraps, paninis, soups and salads), every item on our menu is as good for the body as it is for the taste buds. All our food and beverages are made fresh to order right in front of your eyes, using only natural ingredients of the highest quality. Fresh & Healthy Values.</p>
                     <br>
                     <button class="btn btn-default btn-lg">Get in Touch</button>
                 </div>
@@ -50,11 +50,10 @@
                 <div class="col-sm-8">
                     <h2>Our Values</h2>
                     <br>
-                    <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+                    <h4><strong>MISSION:</strong> NutriCity, our mission is to provide our customers with a fresh and healthy alternative to typically unhealthy fast food, while providing our owners and operators with a profitable business model and a brand they can be proud to be a part of. Whether you're a customer looking for a delicious, nutritious meal, or an entrepreneur seeking a healthy business opportunity, NutriCity is the perfect fit.</h4>
                     <br>
                     <p>
-                        <strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <strong>VISION:</strong> Our vision reaches far beyond just being a food retailer. Our success in fulfilling our vision is measured by customer satisfaction, team member excellence and happiness, return on capital investment, improvement in the state of the environment and local and larger community support.
                     </p>
                 </div>
             </div>
@@ -93,27 +92,21 @@
             <div class="row text-center slideanim">
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="paris.jpg" alt="Paris" width="400" height="300">
                         <p><strong>Alan Nyanhete</strong></p>
-                        <p>Yes, we built Paris</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="newyork.jpg" alt="New York" width="400" height="300">
                         <p><strong>Takunda Chikondo</strong></p>
-                        <p>We built New York</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
                         <p><strong>Keegan Naidoo</strong></p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
                         <p><strong>Nasiha</strong></p>
                     </div>
                 </div>
