@@ -2,6 +2,7 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="css/bootstrapTheme.css" rel="stylesheet">
     <section>
         <div>
             <hgroup>

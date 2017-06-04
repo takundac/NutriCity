@@ -1,10 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="NutriCity.ShoppingCart" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div id="ShoppingCartTitle" runat="server" class="ContentHead"><h1>Shopping Cart</h1></div>
-    <asp:GridView ID="CartList" runat="server" AutoGenerateColumns="false" 
+    <link href="css/bootstrapTheme.css" rel="stylesheet">
+    <div id="ShoppingCartTitle" runat="server" class="ContentHead">
+        <h1>Shopping Cart</h1>
+    </div>
+    <asp:GridView ID="CartList" runat="server" AutoGenerateColumns="false"
         ShowFooter="true" GridLines="Vertical" CellPadding="4"
-        itemtype="NutriCity.Models.CartItem" SelectMethod="GetShoppingCartItems"
-        cssclass="table table-striped table-bordered">
+        ItemType="NutriCity.Models.CartItem" SelectMethod="GetShoppingCartItems"
+        CssClass="table table-striped table-bordered">
         <Columns>
             <asp:BoundField DataField="ProductID" HeaderText="ID" SortExpression="ProductID" />
             <asp:BoundField DataField="Product.ProductName" HeaderText="Name" />
@@ -13,25 +17,25 @@
                 <ItemTemplate>
                     <asp:TextBox ID="PurchaseQuantity" Width="40" runat="server" Text="<%#: Item.Quantity %>"></asp:TextBox>
                 </ItemTemplate>
-            </asp:TemplateField>  
+            </asp:TemplateField>
             <asp:TemplateField HeaderText="Item Total">
                 <ItemTemplate>
                     <%#: String.Format("{0:c}", ((Convert.ToDouble(Item.Quantity)) * Convert.ToDouble(Item.Product.UnitPrice))) %>
                 </ItemTemplate>
-            </asp:TemplateField>  
+            </asp:TemplateField>
             <asp:TemplateField HeaderText="Remove Item">
                 <ItemTemplate>
                     <asp:CheckBox ID="Remove" runat="server" />
                 </ItemTemplate>
-            </asp:TemplateField>            
+            </asp:TemplateField>
         </Columns>
-        </asp:GridView>
+    </asp:GridView>
     <div>
         <p></p>
-            <strong>
-                <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
-                <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
-            </strong>        
+        <strong>
+            <asp:Label ID="LabelTotalText" runat="server" Text="Order Total: "></asp:Label>
+            <asp:Label ID="lblTotal" runat="server" EnableViewState="false"></asp:Label>
+        </strong>
     </div>
     <br />
     <table>
@@ -41,7 +45,7 @@
             </td>
             <td>
                 <asp:ImageButton ID="CheckoutImageBtn" runat="server" ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"
-                    Width="145" AlternateText="Check out with Paypal" OnClick="CheckoutBtn_Click" BackColor="Transparent" BorderWidth="0" />         
+                    Width="145" AlternateText="Check out with Paypal" OnClick="CheckoutBtn_Click" BackColor="Transparent" BorderWidth="0" />
             </td>
         </tr>
     </table>
