@@ -207,11 +207,12 @@
     <Content Include="Checkout\CheckoutError.aspx" />
     <Content Include="Checkout\CheckoutReview.aspx" />
     <Content Include="Checkout\CheckoutStart.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\shop-item.css" />
+    <Content Include="css\bootstrapTheme.css" />
     <Content Include="css\round-about.css" />
+    <Content Include="css\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -221,6 +222,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Checkout\Web.config" />
+    <Content Include="AboutUs.Master" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\placehold.png" />
@@ -275,6 +277,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.Master.cs">
+      <DependentUpon>AboutUs.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Master.designer.cs">
+      <DependentUpon>AboutUs.Master</DependentUpon>
+    </Compile>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">
       <DependentUpon>AddPhoneNumber.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -432,13 +441,6 @@
     </Compile>
     <Compile Include="Checkout\CheckoutStart.aspx.designer.cs">
       <DependentUpon>CheckoutStart.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="NutriCity.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AboutUs.master.cs" Inherits="NutriCity.AboutUs" %>
 
 <!DOCTYPE html>
 
@@ -56,7 +56,6 @@
                         <li><a runat="server" href="~/ShoppingCart" id="cartCount">&nbsp;</a></li>
                     </ul>
 
-                   
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -73,32 +72,13 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
-                </div>
-                
+                </div>       
             </div>
         </div>
         <div id="TitleContent" style="text-align: center">
-            <a runat="server" href="~/">
-                <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/logo.jpg" BorderStyle="None" Height="250px" />
-            </a>
             <br />
         </div>
 
-        <div id="CategoryMenu" style="text-align: center">
-            <asp:ListView ID="categoryList"
-                ItemType="NutriCity.Models.Category"
-                runat="server"
-                SelectMethod="GetCategories">
-                <ItemTemplate>
-                    <b style="font-size: large; font-style: normal">
-                        <a href="<%#: GetRouteUrl("ProductsByCategoryRoute", new {categoryName = Item.CategoryName}) %>">
-                            <%#: Item.CategoryName %>
-                        </a>
-                    </b>
-                </ItemTemplate>
-                <ItemSeparatorTemplate>| </ItemSeparatorTemplate>
-            </asp:ListView>
-        </div>
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
@@ -110,3 +90,4 @@
     </form>
 </body>
 </html>
+
