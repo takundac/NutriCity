@@ -224,14 +224,20 @@
     <Content Include="AboutUs.Master" />
     <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+
     <Content Include="Images\dp\alan.jpeg" />
     <Content Include="Images\dp\tk.jpeg" />
+
+    <Content Include="Images\AFD-WW3-fruit-and-veg-box.png" />
     <Content Include="Images\favicon.jpg" />
     <Content Include="Images\favicon.png" />
+    <Content Include="Images\Fruits-And-Vegetables-420.jpg" />
+    <Content Include="Images\healthy-vegan-wraps.jpg" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\nlogo.jpg" />
     <Content Include="Images\placehold.png" />
+    <Content Include="Images\smoothies-759.jpg" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />
     <Content Include="Scripts\bootstrap.js" />

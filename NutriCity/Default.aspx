@@ -1,9 +1,7 @@
-﻿<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NutriCity._Default" %>
+﻿<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/AboutUs.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NutriCity._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
      <link href="~/css/Site.css" rel="stylesheet">
-
-    <h2>Welcome to NutriCity!! </h2>
 
     <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
         <!-- Indicators -->
@@ -16,27 +14,17 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <h4>"image"</h4>
+                <img class="carousel" src="Images/Fruits-And-Vegetables-420.jpg"/>
                 <br>
             </div>
             <div class="item">
-                <h4>"image"</h4>
+                <img class="carousel" src ="Images/healthy-vegan-wraps.jpg"/>
                 <br>
             </div>
             <div class="item">
-                <h4>"image"</h4>
+                <img class="carousel" src="Images/smoothies-759.jpg" />
                 <br>
             </div>
         </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
 </asp:Content>
