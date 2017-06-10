@@ -48,6 +48,8 @@ namespace NutriCity.Models
         private static List<Product> GetProducts()
         {
             var products = new List<Product> { 
+
+                //DRINKS DATA*************************************************************************************************************************************************************************
                 new Product 
                 { 
                     ProductID = 1, 
@@ -75,6 +77,8 @@ namespace NutriCity.Models
                     UnitPrice = 14.99, 
                     CategoryID = 1 
                 }, 
+
+                //DAIRY DATA
                 new Product 
                 { 
                     ProductID = 4, 
@@ -129,6 +133,8 @@ namespace NutriCity.Models
                     UnitPrice = 8.95,
                     CategoryID = 3
                 }, 
+
+                //BREAKFAST DATA*************************************************************************************************************************************************************************
                 new Product 
                 { 
                     ProductID = 10, 
@@ -196,14 +202,125 @@ namespace NutriCity.Models
                  },
                  new Product
                  {
-                     ProductID = 16,
+                     ProductID = 17,
                      ProductName = "Jungle Energy Crunch",
                      Description = "Jungle Energy Crunch, Nuts and Raisins 750g",
                      ImagePath="Jungle_Energy_Crunch_750.jpg",
                      UnitPrice = 36.95,
                      CategoryID = 2
-                 }
-                 
+                 },
+
+                 //FRUIT DATA*************************************************************************************************************************************************************************
+                 new Product
+                 {
+                     ProductID = 18,
+                     ProductName = "Plums",
+                     Description = "Fresh Best in Season Plums",
+                     ImagePath="Plums.jpg",
+                     UnitPrice = 36.95,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 19,
+                     ProductName = "Mangoes",
+                     Description = "Ciruli Brothers Champagne Mango Case",
+                     ImagePath="Plums.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 20,
+                     ProductName = "Mangoes",
+                     Description = "Ciruli Brothers Champagne Mango Case",
+                     ImagePath="Mango.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 21,
+                     ProductName = "Apricots",
+                     Description = "Family Tree Farms Best in Season Apricot Case",
+                     ImagePath="apricot.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 22,
+                     ProductName = "Gala Apples",
+                     Description = "Gala Apples, Case",
+                     ImagePath="apple.jpg",
+                     UnitPrice = 59.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 23,
+                     ProductName = "Granny Smith Apples",
+                     Description = "Granny Smith Apples Case",
+                     ImagePath="gApple.jpg",
+                     UnitPrice = 69.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 24,
+                     ProductName = "Peaches",
+                     Description = "Peaches Case",
+                     ImagePath="peaches.jpg",
+                     UnitPrice = 59.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 25,
+                     ProductName = "Nectarines",
+                     Description = "Nectarines Case",
+                     ImagePath="nectarines.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 26,
+                     ProductName = "Red Grapefruit",
+                     Description = "Red Grapefruit Case",
+                     ImagePath="rGrapefruit.jpg",
+                     UnitPrice = 43.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 27,
+                     ProductName = "Pears",
+                     Description = "Best in Season Pears Case",
+                     ImagePath="pears.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 28,
+                     ProductName = "Bananas",
+                     Description = "Yellow Bananas Case",
+                     ImagePath="bananas.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
             }; 
           return products;
         }
