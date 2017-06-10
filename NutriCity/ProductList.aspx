@@ -46,18 +46,22 @@
                                     </a>
                                     <br />
                                     <span>
-                                        <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%>
+                                        <h30 color ="black">
+                                        <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%> <h30>
                                     </span>
                                     <br />
 
-                                    <button class="btn btn-primary btn-success">
+                                    
+                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart</a>
+
+                                    <%--<button class="btn btn-primary btn-success"  >
                                         <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
                                             <span class="ProductListItem">
                                                 <b>Add To Cart<b>
                                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                             </span>
                                         </a>
-                                    </button>
+                                    </button>--%>
                                 </td>
                             </tr>
                             <tr>
