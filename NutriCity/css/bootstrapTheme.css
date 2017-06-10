@@ -6,8 +6,9 @@ body {
 
 .carousel {
     width: 100%;
-    max-height: 475px;
+    max-height: 575px;
 }
+
 .register{
     color:darkblue;
 }
@@ -102,7 +103,7 @@ h4 {
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: forestgreen;
-    width: 100%;
+    width: 200px;
     height: 100px;
 }
 
