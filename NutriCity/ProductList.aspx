@@ -52,7 +52,7 @@
                                     <br />
 
                                     
-                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart</a>
+                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart <span class="glyphicon glyphicon-shopping-cart"></span> </a>
 
                                     <%--<button class="btn btn-primary btn-success"  >
                                         <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">

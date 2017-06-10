@@ -271,7 +271,7 @@ footer .glyphicon {
         font-size: 150px;
     }
 
-    .glyphicon glyphicon-shopping-cart {
+    .glyphicon.glyphicon-shopping-cart {
         background-color: forestgreen;
     }
 
