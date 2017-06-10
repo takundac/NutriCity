@@ -93,21 +93,25 @@
             <div class="row text-center slideanim">
                 <div class="col-sm-4">
                     <div class="thumbnail">
+                        <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/dp/alan.jpeg"  />
                         <p><strong>Alan Nyanhete</strong></p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
+                        <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/dp/tk.jpeg"  />
                         <p><strong>Takunda Chikondo</strong></p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
+                        <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/dp/team.jpeg"  />
                         <p><strong>Keegan Naidoo</strong></p>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
+                        <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/dp/team.jpeg"  />
                         <p><strong>Nasiha</strong></p>
                     </div>
                 </div>
