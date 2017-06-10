@@ -317,10 +317,90 @@ namespace NutriCity.Models
                      ProductName = "Bananas",
                      Description = "Yellow Bananas Case",
                      ImagePath="bananas.jpg",
-                     UnitPrice = 19.99,
+                     UnitPrice = 29.99,
                      CategoryID = 4
                  },
+                 
+                 //VEGETABLE DATA*************************************************************************************************************************************************************************
+                 new Product
+                 {
+                     ProductID = 29,
+                     ProductName = "Avovados",
+                     Description = "Organic Hass Avocados",
+                     ImagePath="avo.jpg",
+                     UnitPrice = 11.99,
+                     CategoryID = 5
+                 },
 
+                  new Product
+                 {
+                     ProductID = 30,
+                     ProductName = "Baby Carrots",
+                     Description = "Cal-organic Baby Carrots Case",
+                     ImagePath="car.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 5
+                 },
+
+                   new Product
+                 {
+                     ProductID = 31,
+                     ProductName = "Cucumbers",
+                     Description = "Organic Mini Seedless Cucumbers 1kg",
+                     ImagePath="cuc.jpg",
+                     UnitPrice = 12.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 32,
+                     ProductName = "Eggplant",
+                     Description = "Italian Eggplant 1kg",
+                     ImagePath="eggP.jpg",
+                     UnitPrice = 8.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 33,
+                     ProductName = "Zucchini",
+                     Description = "Organic Green Zucchini 1kg",
+                     ImagePath="zucG.jpg",
+                     UnitPrice = 7.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 34,
+                     ProductName = "Zucchini",
+                     Description = "Organic Yellow Zucchini 1kg",
+                     ImagePath="zucY.jpg",
+                     UnitPrice = 8.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 35,
+                     ProductName = "Peppers Assorted",
+                     Description = "Rainbow Pepper Pack",
+                     ImagePath="pep.jpg",
+                     UnitPrice = 6.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 36,
+                     ProductName = "Leeks",
+                     Description = "Organic Leeks Bunch",
+                     ImagePath="leek.jpg",
+                     UnitPrice = 4.99,
+                     CategoryID = 5
+                 },
             }; 
           return products;
         }
