@@ -55,15 +55,15 @@ namespace NutriCity
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "744460038213-ns9sajnrr596o0jphnau8egijqh6sobt.apps.googleusercontent.com",
+               appSecret: "KJj9xEvZIByST3SnfSSy_l0Y");
 
-            //app.UseGoogleAuthentication();
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
+            {
+                ClientId = "312605972494678",
+                ClientSecret = "43bc5fd54c391c75a3887fd85f4dd18f"
+            });
         }
     }
 }

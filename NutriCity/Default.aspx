@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Welcome" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="NutriCity._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="css/bootstrapTheme.css" rel="stylesheet">
+     <link href="~/css/Site.css" rel="stylesheet">
 
     <h2>Welcome to NutriCity!! </h2>
 

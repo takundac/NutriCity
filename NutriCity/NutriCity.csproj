@@ -208,10 +208,8 @@
     <Content Include="Checkout\CheckoutReview.aspx" />
     <Content Include="Checkout\CheckoutStart.aspx" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\shop-item.css" />
+    <Content Include="Content\material-kit.css" />
     <Content Include="css\bootstrapTheme.css" />
-    <Content Include="css\round-about.css" />
     <Content Include="css\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
