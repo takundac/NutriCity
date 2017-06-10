@@ -200,6 +200,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="AddToCart.aspx" />
+    <Content Include="Admin\AdminPage.aspx" />
     <Content Include="Catalog\Images\soon.jpg" />
     <Content Include="Catalog\Images\Thumbs\soon.jpg" />
     <Content Include="Checkout\CheckoutCancel.aspx" />
@@ -208,10 +209,11 @@
     <Content Include="Checkout\CheckoutReview.aspx" />
     <Content Include="Checkout\CheckoutStart.aspx" />
     <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\shop-item.css" />
+
+    <Content Include="Content\material-kit.css" />
+
+
     <Content Include="css\bootstrapTheme.css" />
-    <Content Include="css\round-about.css" />
     <Content Include="css\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -223,7 +225,10 @@
     </Content>
     <Content Include="Checkout\Web.config" />
     <Content Include="AboutUs.Master" />
+    <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\favicon.jpg" />
+    <Content Include="Images\favicon.png" />
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\placehold.png" />
     <Content Include="ProductDetails.aspx" />
@@ -396,6 +401,13 @@
     <Compile Include="AddToCart.aspx.designer.cs">
       <DependentUpon>AddToCart.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Admin\AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -452,8 +464,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Logic\AddProducts.cs" />
     <Compile Include="Logic\ExceptionUtility.cs" />
     <Compile Include="Logic\PayPalFunctions.cs" />
+    <Compile Include="Logic\RoleActions.cs" />
     <Compile Include="Logic\ShoppingCartActions.cs" />
     <Compile Include="Models\CartItem.cs" />
     <Compile Include="Models\Category.cs" />

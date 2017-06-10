@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ShoppingCart.aspx.cs" Inherits="NutriCity.ShoppingCart" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="css/bootstrapTheme.css" rel="stylesheet">
     <div id="ShoppingCartTitle" runat="server" class="ContentHead">
         <h1>Shopping Cart</h1>
     </div>
@@ -41,7 +40,7 @@
     <table>
         <tr>
             <td>
-                <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" />
+                <asp:Button ID="UpdateBtn" runat="server" Text="Update" OnClick="UpdateBtn_Click" CssClass="btn btn-info"/>
             </td>
             <td>
                 <asp:ImageButton ID="CheckoutImageBtn" runat="server" ImageUrl="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"

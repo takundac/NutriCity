@@ -1,8 +1,7 @@
-
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #fff;
 }
 
 h2 {
@@ -138,7 +137,7 @@ h4 {
 
 .navbar {
     margin-bottom: 0;
-    background-color: forestgreen;
+    background-color: #54A700;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -153,8 +152,9 @@ h4 {
     }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
+
+    color: rgba(247, 227, 1, 0.79) !important;
+    background-color: forestgreen !important;
 }
 
 .navbar-default .navbar-toggle {

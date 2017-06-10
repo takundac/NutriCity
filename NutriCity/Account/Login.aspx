@@ -19,7 +19,7 @@
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">Email</asp:Label>
                         <div class="col-md-10">
-                            <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
+                            <asp:TextBox runat="server" ID="Email" CssClass="form-control form-control-white" TextMode="Email" />
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
                                 CssClass="text-danger" ErrorMessage="The email field is required." />
                         </div>
@@ -34,14 +34,14 @@
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
                             <div class="checkbox">
-                                <asp:CheckBox runat="server" ID="RememberMe" />
+                                <asp:CheckBox runat="server" ID="RememberMe" CssClass="checkbox" />
                                 <asp:Label runat="server" AssociatedControlID="RememberMe">Remember me?</asp:Label>
                             </div>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <asp:Button runat="server" OnClick="LogIn" Text="Log in" CssClass="btn btn-default" />
+                            <asp:Button runat="server" OnClick="LogIn" Text="Log in" CssClass="btn btn-success" />
                         </div>
                     </div>
                 </div>

@@ -29,6 +29,8 @@
                             <b>Product Number:</b>&nbsp;<%#:Item.ProductID %>
                         </span>
                         <br />
+                        
+                        <input type="button" class="btn-info" value="Back" onclick="history.back(-1)" />
                     </td>
                 </tr>
             </table>

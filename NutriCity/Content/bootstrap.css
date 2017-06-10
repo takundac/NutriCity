@@ -58,6 +58,7 @@ html {
 }
 
 body {
+  padding-top: 60px;
   margin: 0;
 }
 
@@ -311,6 +312,7 @@ html {
 }
 
 body {
+  padding-top: 60px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
@@ -4553,7 +4555,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+  background-color: #388538;
 }
 
 .navbar-inverse .navbar-collapse,

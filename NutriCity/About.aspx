@@ -1,10 +1,10 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/AboutUs.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="NutriCity.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="css/round-about.css" rel="stylesheet">
+    <link href="~/css/bootstrapTheme.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrapTheme.css" rel="stylesheet">
+    <link href="~/css/bootstrapTheme.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -19,7 +19,7 @@
                 <div class="input-group">
                     <input type="email" class="form-control" size="50" placeholder="Email Address" required>
                     <div class="input-group-btn">
-                        <button type="button" class="btn btn-danger">Subscribe</button>
+                        <button type="button" class="btn btn-success">Subscribe</button>
                     </div>
                 </div>
             </form>
@@ -35,7 +35,7 @@
                     <br>
                     <p>We are perfectly positioned to meet this demand, providing our guests with an extraordinary health experience unlike any they’ve ever tasted. We can confidently claim that our menu is unlike anything else offered in the industry. Whether you're looking for a refreshing mid-afternoon smoothie or a hearty meal (including wraps, paninis, soups and salads), every item on our menu is as good for the body as it is for the taste buds. All our food and beverages are made fresh to order right in front of your eyes, using only natural ingredients of the highest quality. Fresh & Healthy Values.</p>
                     <br>
-                    <button class="btn btn-default btn-lg">Get in Touch</button>
+                    <button class="btn btn-success btn-lg">Get in Touch</button>
                 </div>
                 <div class="col-sm-4">
                     <span class="glyphicon glyphicon-signal logo"></span>
@@ -173,7 +173,7 @@
                     <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
                     <div class="row">
                         <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                            <button class="btn btn-success pull-right" type="submit">Send</button>
                         </div>
                     </div>
                 </div>
