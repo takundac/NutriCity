@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/dp/team.jpeg"  />
+                        <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/dp/keegz.jpg"  />
                         <p><strong>Keegan Naidoo</strong></p>
                     </div>
                 </div>
