@@ -54,6 +54,7 @@
                                         <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
                                             <span class="ProductListItem">
                                                 <b>Add To Cart<b>
+                                                    <span class="glyphicon glyphicon-shopping-cart"></span>
                                             </span>
                                         </a>
                                     </button>
@@ -88,3 +89,4 @@
         </div>
     </section>
 </asp:Content>
+<%--  --%><%--  --%>
