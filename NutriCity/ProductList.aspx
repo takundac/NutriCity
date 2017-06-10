@@ -52,16 +52,16 @@
                                     <br />
 
                                     
-                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart  <span class="glyphicon glyphicon-shopping-cart"></span></a>
+                                    <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button"> <span class="ProductListItem"> Add to cart  <span class="glyphicon glyphicon-shopping-cart"></span></span></a>
 
-                                    <%--<button class="btn btn-primary btn-success"  >
-                                        <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
+                                    
+<%--                                        <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" >
                                             <span class="ProductListItem">
                                                 <b>Add To Cart<b>
                                                     <span class="glyphicon glyphicon-shopping-cart"></span>
                                             </span>
-                                        </a>
-                                    </button>--%>
+                                        </a>--%>
+                                    
                                 </td>
                             </tr>
                             <tr>
