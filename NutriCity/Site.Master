@@ -13,10 +13,10 @@
     </asp:PlaceHolder>
 
     <link href="~/css/bootstrapTheme.css" rel="stylesheet">
-    <link href="~/css/Site.css" rel="stylesheet">
+    <!--<link href="~/css/Site.css" rel="stylesheet">-->
     <link href="~/Content/bootstrap.css" rel="stylesheet">
     <link href="~/Content/material-kit.css" rel="stylesheet">
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 
    
 </head>
