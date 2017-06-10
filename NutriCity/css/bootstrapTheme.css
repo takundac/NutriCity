@@ -1,8 +1,7 @@
-
 body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #fff;
 }
 
 h2 {
@@ -153,6 +152,7 @@ h4 {
     }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
+
     color: #000000 !important;
     background-color: forestgreen !important;
 }

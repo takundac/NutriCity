@@ -11,10 +11,14 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:BundleReference runat="server" Path="~/Content/css" />
-    <link href ="~/css/Site.css" rel="stylesheet">
-    <link href="Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 
+    <link href="~/css/bootstrapTheme.css" rel="stylesheet">
+    <link href="~/css/Site.css" rel="stylesheet">
+    <link href="~/Content/bootstrap.css" rel="stylesheet">
+    <link href="~/Content/material-kit.css" rel="stylesheet">
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+   
 </head>
 <body>
     <form runat="server">
@@ -39,7 +43,7 @@
             </Scripts>
         </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-success">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -58,7 +62,6 @@
                         <li><a runat="server" href="~/ShoppingCart" id="cartCount">&nbsp;</a></li>
                     </ul>
 
-                   
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
@@ -75,8 +78,7 @@
                             </ul>
                         </LoggedInTemplate>
                     </asp:LoginView>
-                </div>
-                
+                </div>                
             </div>
         </div>
         <div id="TitleContent" style="text-align: center">
@@ -101,6 +103,7 @@
                 <ItemSeparatorTemplate>| </ItemSeparatorTemplate>
             </asp:ListView>
         </div>
+
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
