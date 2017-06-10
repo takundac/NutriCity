@@ -8,6 +8,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using System.Data.Entity;
 using NutriCity.Models;
+using NutriCity.Logic;
 
 namespace NutriCity
 {
@@ -23,8 +24,8 @@ namespace NutriCity
             Database.SetInitializer(new ProductDatabaseInitializer());
 
             //Create the administrator role and user
-            //RoleActions roleActions = new RoleActions();
-            //roleActions.createAdmin();
+            RoleActions roleActions = new RoleActions();
+            roleActions.createAdmin();
 
             // Add Routes.
             RegisterCustomRoutes(RouteTable.Routes);

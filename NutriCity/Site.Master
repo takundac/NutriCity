@@ -12,7 +12,8 @@
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <webopt:BundleReference runat="server" Path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href ="~/css/Site.css" rel="stylesheet">
+    <link href="Images/favicon.png" rel="shortcut icon" type="image/x-icon" />
 
 </head>
 <body>
@@ -50,6 +51,7 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
+                        <li><a runat="server" id="adminLink" visible="false" href="~/Admin/AdminPage">Admin</a></li>
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/ProductList.aspx">Products</a></li>
                         <li><a runat="server" href="~/About">About Us</a></li>
