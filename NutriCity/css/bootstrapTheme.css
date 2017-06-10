@@ -5,6 +5,10 @@ body {
     color: #fff;
 }
 
+span.custom{
+    font-size: 40px;
+    color: green;
+}
 .carousel {
     width: 100%;
     max-height: 575px;

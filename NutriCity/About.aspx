@@ -67,17 +67,17 @@
             <br>
             <div class="row slideanim">
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-shopping-cart"></span>
+                    <span class="glyphicon glyphicon-shopping-cart custom"></span>
                     <h4>Order Online</h4>
                     <p>Order you products conviently and securely online</p>
                 </div>
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-euro"></span>
+                    <span class="glyphicon glyphicon-usd custom"></span>
                     <h4>Pay and collect</h4>
                     <p>Pay for your healthy foods and collect them in  store. No waiting in no hassles</p>
                 </div>
                 <div class="col-sm-4">
-                    <span class="glyphicon glyphicon-leaf"></span>
+                    <span class="glyphicon glyphicon-leaf custom"></span>
                     <h4>GREEN</h4>
                     <p>Use only 100 percent recyclable product packaging</p>
                 </div>
