@@ -76,7 +76,39 @@ namespace NutriCity.Models
                     ImagePath="Glaceau_Vitamin_Water_rejuve-500.jpg", 
                     UnitPrice = 14.99, 
                     CategoryID = 1 
+                },
+
+                new Product
+                {
+                    ProductID = 37,
+                    ProductName = "Almond Milk",
+                    Description = "Silk PureAlmond All-Natural Almond Milk Original",
+                    ImagePath="silk.jpg",
+                    UnitPrice = 4.99,
+                    CategoryID = 1
+                },
+
+                new Product
+                {
+                    ProductID = 38,
+                    ProductName = "Spring Water",
+                    Description = "Poland Spring 100% Natural Spring Water",
+                    ImagePath="water.jpg",
+                    UnitPrice = 3.99,
+                    CategoryID = 1
+                },
+
+                new Product
+                {
+                    ProductID = 40,
+                    ProductName = "Apple Juice",
+                    Description = "Apple & Eve Organic Apple Juice",
+                    ImagePath="appleJuice.jpg",
+                    UnitPrice = 3.99,
+                    CategoryID = 1
                 }, 
+
+
 
                 //DAIRY DATA
                 new Product 
