@@ -95,7 +95,7 @@
                 SelectMethod="GetCategories">
                 <ItemTemplate>
                     <b style="font-size: large; font-style: normal">
-                        <a href="<%#: GetRouteUrl("ProductsByCategoryRoute", new {categoryName = Item.CategoryName}) %>">
+                        <a href="<%#: GetRouteUrl("ProductsByCategoryRoute", new {categoryName = Item.CategoryName}) %>" class="siteMaster">
                             <%#: Item.CategoryName %>
                         </a>
                     </b>

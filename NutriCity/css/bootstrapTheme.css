@@ -4,6 +4,41 @@ body {
     color: #fff;
 }
 
+.siteMaster {
+    color:green;
+}
+
+.siteMaster:active{
+    color:green;
+}
+
+.siteMaster:hover{
+    color:green;
+}
+
+.addToCart {
+    color: black;
+}
+
+.addToCart:active{
+    color:black;
+}
+
+.addToCart:hover{
+    color:black;
+}
+
+.productLink{
+    color:deepskyblue;
+}
+
+.productLink:active{
+    color:deepskyblue;
+}
+
+.productLink:hover{
+    color:deepskyblue;
+}
 h2 {
     font-size: 24px;
     text-transform: uppercase;

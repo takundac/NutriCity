@@ -3,6 +3,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/bootstrapTheme.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <section>
         <div>
             <hgroup>
@@ -40,7 +41,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <a href="<%#: GetRouteUrl("ProductByNameRoute", new {productName = Item.ProductName}) %>">
+                                    <a href="<%#: GetRouteUrl("ProductByNameRoute", new {productName = Item.ProductName}) %>" class="productLink">
                                         <%#:Item.ProductName%>
                                     </a>
                                     <br />
@@ -50,7 +51,7 @@
                                     <br />
 
                                     <button class="btn btn-primary btn-success">
-                                        <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>">
+                                        <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
                                             <span class="ProductListItem">
                                                 <b>Add To Cart<b>
                                             </span>
