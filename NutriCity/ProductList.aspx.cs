@@ -7,14 +7,11 @@ using System.Web.UI.WebControls;
 using NutriCity.Models;
 using System.Web.ModelBinding;
 using System.Web.Routing;
-using System.Data;
-using System.Data.SqlClient;
 
 namespace NutriCity
 {
     public partial class ProductList : System.Web.UI.Page
     {
-        //SqlConnection con = new SqlConnection("Data Source=(LocalDb)\\MSSQLLocalDB;Initial Catalog=aspnet-NutriCity;Integrated Security=True");
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -39,29 +36,5 @@ namespace NutriCity
             }
             return query;
         }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        //protected void Button1_Click(object sender, EventArgs e)
-        //{
-        //    String str = "select * from Products where (ProductName like '%' + @search + '%')";
-        //    SqlCommand cmd = new SqlCommand(str, con);
-        //    cmd.Parameters.Add("@search", SqlDbType.NVarChar).Value = TextBox1.Text;
-
-        //    con.Open();
-        //    cmd.ExecuteNonQuery();
-        //    SqlDataAdapter da = new SqlDataAdapter();
-        //    da.SelectCommand = cmd;
-        //    DataSet ds = new DataSet();
-        //    da.Fill(ds, "ProductName");
-        //    GridView1.DataSource = ds;
-        //    GridView1.DataBind();
-        //    con.Close();
-
-
-        //}
     }
 }
