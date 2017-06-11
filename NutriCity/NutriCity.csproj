@@ -314,7 +314,6 @@
     <Content Include="Images\logo.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\nlogo.jpg" />
-    <Content Include="Images\placehold.png" />
     <Content Include="Images\smoothies-759.jpg" />
     <Content Include="PrivacyPolicy.aspx" />
     <Content Include="ProductDetails.aspx" />
