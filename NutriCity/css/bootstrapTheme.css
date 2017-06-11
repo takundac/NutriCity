@@ -5,6 +5,15 @@ body {
     color: #fff;
 }
 
+span.custom{
+    font-size: 40px;
+    color: green;
+}
+span.addToCart{
+    font-size:inherit;
+    color: white;
+}
+
 .carousel {
     width: 100%;
     max-height: 575px;
