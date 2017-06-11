@@ -256,8 +256,8 @@ namespace NutriCity.Models
                  new Product
                  {
                      ProductID = 19,
-                     ProductName = "Mangoes",
-                     Description = "Ciruli Brothers Champagne Mango Case",
+                     ProductName = "Plums",
+                     Description = "Ciruli Brothers Champagne Plum Case",
                      ImagePath="Plums.jpg",
                      UnitPrice = 19.99,
                      CategoryID = 4
@@ -407,7 +407,7 @@ namespace NutriCity.Models
                   new Product
                  {
                      ProductID = 34,
-                     ProductName = "Zucchini",
+                     ProductName = "Zucchini Yellow",
                      Description = "Organic Yellow Zucchini 1kg",
                      ImagePath="zucY.jpg",
                      UnitPrice = 8.99,
