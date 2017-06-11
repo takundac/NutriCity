@@ -9,6 +9,11 @@ body {
     float:right;
     padding-bottom:30px;
 }
+
+.rightLink {
+    float: right;
+    color:black;
+}
 .footer {
     color: black;
 }

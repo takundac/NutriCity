@@ -113,9 +113,9 @@
                     <li>
                         <p class="footer">&copy; <%: DateTime.Now.Year %> NutriCity</p>
                     </li>
-
                     <li class="right"><a href="https://facebook.com" class="fa fa-facebook" target="_blank"></a></li>
                     <li class="right"><a href="https://twitter.com" class="fa fa-twitter" target="_blank"></a></li>
+                    <li class="rightLink"><a href="/PrivacyPolicy.aspx">Privacy Policy</a></li>
                 </ul>
             </footer>
         </div>
