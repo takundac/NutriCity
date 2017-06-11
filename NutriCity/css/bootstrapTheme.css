@@ -5,6 +5,11 @@ body {
     color: #fff;
 }
 
+.video {
+    display: block;
+    margin: 0 auto;
+}
+
 span.custom{
     font-size: 40px;
     color: green;
