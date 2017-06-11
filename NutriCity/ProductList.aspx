@@ -3,7 +3,6 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <link href="css/bootstrapTheme.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <section>
         <div>
             <hgroup>
@@ -46,13 +45,14 @@
                                     </a>
                                     <br />
                                     <span>
-                                        <h30 color ="black">
+                                        <h30 color="black">
                                         <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%> <h30>
                                     </span>
                                     <br />
 
-                                    
-                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart</a>
+
+                                    <a href="AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart <span class="glyphicon glyphicon-shopping-cart addToCart"></span>
+                                    </a>
 
                                     <%--<button class="btn btn-primary btn-success"  >
                                         <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
