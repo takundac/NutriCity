@@ -5,6 +5,43 @@ body {
     color: #fff;
 }
 
+.right{
+    float:right;
+    padding-bottom:30px;
+}
+.footer {
+    color: black;
+}
+
+.privacy {
+    color: black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.footer{
+    color:black;
+}
 .video {
     display: block;
     margin: 0 auto;
