@@ -48,6 +48,8 @@ namespace NutriCity.Models
         private static List<Product> GetProducts()
         {
             var products = new List<Product> { 
+
+                //DRINKS DATA*************************************************************************************************************************************************************************
                 new Product 
                 { 
                     ProductID = 1, 
@@ -74,7 +76,41 @@ namespace NutriCity.Models
                     ImagePath="Glaceau_Vitamin_Water_rejuve-500.jpg", 
                     UnitPrice = 14.99, 
                     CategoryID = 1 
+                },
+
+                new Product
+                {
+                    ProductID = 37,
+                    ProductName = "Almond Milk",
+                    Description = "Silk PureAlmond All-Natural Almond Milk Original",
+                    ImagePath="silk.jpg",
+                    UnitPrice = 4.99,
+                    CategoryID = 1
+                },
+
+                new Product
+                {
+                    ProductID = 38,
+                    ProductName = "Spring Water",
+                    Description = "Poland Spring 100% Natural Spring Water",
+                    ImagePath="water.jpg",
+                    UnitPrice = 3.99,
+                    CategoryID = 1
+                },
+
+                new Product
+                {
+                    ProductID = 40,
+                    ProductName = "Apple Juice",
+                    Description = "Apple & Eve Organic Apple Juice",
+                    ImagePath="appleJuice.jpg",
+                    UnitPrice = 3.99,
+                    CategoryID = 1
                 }, 
+
+
+
+                //DAIRY DATA
                 new Product 
                 { 
                     ProductID = 4, 
@@ -129,6 +165,8 @@ namespace NutriCity.Models
                     UnitPrice = 8.95,
                     CategoryID = 3
                 }, 
+
+                //BREAKFAST DATA*************************************************************************************************************************************************************************
                 new Product 
                 { 
                     ProductID = 10, 
@@ -196,14 +234,207 @@ namespace NutriCity.Models
                  },
                  new Product
                  {
-                     ProductID = 16,
+                     ProductID = 17,
                      ProductName = "Jungle Energy Crunch",
                      Description = "Jungle Energy Crunch, Nuts and Raisins 750g",
                      ImagePath="Jungle_Energy_Crunch_750.jpg",
                      UnitPrice = 36.95,
                      CategoryID = 2
-                 }
+                 },
+
+                 //FRUIT DATA*************************************************************************************************************************************************************************
+                 new Product
+                 {
+                     ProductID = 18,
+                     ProductName = "Plums",
+                     Description = "Fresh Best in Season Plums",
+                     ImagePath="Plums.jpg",
+                     UnitPrice = 36.95,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 19,
+                     ProductName = "Mangoes",
+                     Description = "Ciruli Brothers Champagne Mango Case",
+                     ImagePath="Plums.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 20,
+                     ProductName = "Mangoes",
+                     Description = "Ciruli Brothers Champagne Mango Case",
+                     ImagePath="Mango.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 21,
+                     ProductName = "Apricots",
+                     Description = "Family Tree Farms Best in Season Apricot Case",
+                     ImagePath="apricot.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 22,
+                     ProductName = "Gala Apples",
+                     Description = "Gala Apples, Case",
+                     ImagePath="apple.jpg",
+                     UnitPrice = 59.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 23,
+                     ProductName = "Granny Smith Apples",
+                     Description = "Granny Smith Apples Case",
+                     ImagePath="gApple.jpg",
+                     UnitPrice = 69.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 24,
+                     ProductName = "Peaches",
+                     Description = "Peaches Case",
+                     ImagePath="peaches.jpg",
+                     UnitPrice = 59.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 25,
+                     ProductName = "Nectarines",
+                     Description = "Nectarines Case",
+                     ImagePath="nectarines.jpg",
+                     UnitPrice = 19.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 26,
+                     ProductName = "Red Grapefruit",
+                     Description = "Red Grapefruit Case",
+                     ImagePath="rGrapefruit.jpg",
+                     UnitPrice = 43.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 27,
+                     ProductName = "Pears",
+                     Description = "Best in Season Pears Case",
+                     ImagePath="pears.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 4
+                 },
+
+                 new Product
+                 {
+                     ProductID = 28,
+                     ProductName = "Bananas",
+                     Description = "Yellow Bananas Case",
+                     ImagePath="bananas.jpg",
+                     UnitPrice = 29.99,
+                     CategoryID = 4
+                 },
                  
+                 //VEGETABLE DATA*************************************************************************************************************************************************************************
+                 new Product
+                 {
+                     ProductID = 29,
+                     ProductName = "Avovados",
+                     Description = "Organic Hass Avocados",
+                     ImagePath="avo.jpg",
+                     UnitPrice = 11.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 30,
+                     ProductName = "Baby Carrots",
+                     Description = "Cal-organic Baby Carrots Case",
+                     ImagePath="car.jpg",
+                     UnitPrice = 49.99,
+                     CategoryID = 5
+                 },
+
+                   new Product
+                 {
+                     ProductID = 31,
+                     ProductName = "Cucumbers",
+                     Description = "Organic Mini Seedless Cucumbers 1kg",
+                     ImagePath="cuc.jpg",
+                     UnitPrice = 12.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 32,
+                     ProductName = "Eggplant",
+                     Description = "Italian Eggplant 1kg",
+                     ImagePath="eggP.jpg",
+                     UnitPrice = 8.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 33,
+                     ProductName = "Zucchini",
+                     Description = "Organic Green Zucchini 1kg",
+                     ImagePath="zucG.jpg",
+                     UnitPrice = 7.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 34,
+                     ProductName = "Zucchini",
+                     Description = "Organic Yellow Zucchini 1kg",
+                     ImagePath="zucY.jpg",
+                     UnitPrice = 8.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 35,
+                     ProductName = "Peppers Assorted",
+                     Description = "Rainbow Pepper Pack",
+                     ImagePath="pep.jpg",
+                     UnitPrice = 6.99,
+                     CategoryID = 5
+                 },
+
+                  new Product
+                 {
+                     ProductID = 36,
+                     ProductName = "Leeks",
+                     Description = "Organic Leeks Bunch",
+                     ImagePath="leek.jpg",
+                     UnitPrice = 4.99,
+                     CategoryID = 5
+                 },
+
+                  //Done
             }; 
           return products;
         }

@@ -49,8 +49,8 @@
                             <tr>
                                 <td>
                                     <a href="<%#: GetRouteUrl("ProductByNameRoute", new {productName = Item.ProductName}) %>">
-                                        <image src='/Catalog/Images/Thumbs/<%#:Item.ImagePath%>'
-                                            width="100" height="75" border="1" />
+                                        <image class="img img-raised" src='/Catalog/Images/Thumbs/<%#:Item.ImagePath%>'
+                                            width="100" height="110" border="1" />
                                     </a>
                                 </td>
                             </tr>
@@ -61,17 +61,22 @@
                                     </a>
                                     <br />
                                     <span>
-                                        <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%>
+                                        <h30 color ="black">
+                                        <b>Price: </b><%#:String.Format("{0:c}", Item.UnitPrice)%> <h30>
                                     </span>
                                     <br />
 
-                                    <button class="btn btn-primary btn-success">
+                                    
+                                    <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="btn btn-success active" role="button">Add to cart <span class="glyphicon glyphicon-shopping-cart"></span> </a>
+
+                                    <%--<button class="btn btn-primary btn-success"  >
                                         <a href="/AddToCart.aspx?productID=<%#:Item.ProductID %>" class="addToCart">
                                             <span class="ProductListItem">
                                                 <b>Add To Cart<b>
+                                                    <span class="glyphicon glyphicon-shopping-cart"></span>
                                             </span>
                                         </a>
-                                    </button>
+                                    </button>--%>
                                 </td>
                             </tr>
                             <tr>
@@ -103,3 +108,4 @@
         </div>
     </section>
 </asp:Content>
+<%--  --%><%--  --%>
