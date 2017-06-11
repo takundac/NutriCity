@@ -52,7 +52,8 @@
                     <h2>Our Values</h2>
                     <br>
                     <h4><strong>MISSION:</strong> NutriCity, our mission is to provide our customers with a fresh and healthy alternative to typically unhealthy fast food, while providing our owners and operators with a profitable business model and a brand they can be proud to be a part of. Whether you're a customer looking for a delicious, nutritious meal, or an entrepreneur seeking a healthy business opportunity, NutriCity is the perfect fit.</h4>
-                    <br>                    <p>
+                    <br>
+                    <p>
                         <strong>VISION:</strong> Our vision reaches far beyond just being a food retailer. Our success in fulfilling our vision is measured by customer satisfaction, team member excellence and happiness, return on capital investment, improvement in the state of the environment and local and larger community support.
                     </p>
                 </div>
@@ -84,10 +85,8 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <p><strong>Nasiha Ally</strong></p>
                         <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/dp/team.jpeg"  />
                         <p><strong>Nasiha</strong></p>
- 
                     </div>
                 </div>
             </div>
