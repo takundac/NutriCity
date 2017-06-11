@@ -19,7 +19,7 @@
                 <div class="input-group">
                     <input type="email" class="form-control" size="50" placeholder="Email Address" required>
                     <div class="input-group-btn">
-                        <button type="button" class="btn btn-success">Subscribe</button>
+                        <button type="button" class="btn btn-danger">Subscribe</button>
                     </div>
                 </div>
             </form>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/dp/team.jpeg"  />
+                        <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/dp/nas.jpg"  />
                         <p><strong>Nasiha</strong></p>
                     </div>
                 </div>
