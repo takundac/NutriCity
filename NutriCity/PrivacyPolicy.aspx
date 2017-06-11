@@ -69,7 +69,7 @@
                         <p>If you have any questions about this Privacy Policy, please contact us.</p>-->
                         <!-- Container (Contact Section) -->
         <div id="contact" class="container-fluid bg-grey">
-            <h2 class="text-center">CONTACT</h2>
+            <h2 class="text-center">CONTACT US</h2>
             <div class="row">
                 <div class="col-sm-5">
                     <p>Contact us and we'll get back to you within 24 hours.</p>
