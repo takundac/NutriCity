@@ -17,11 +17,10 @@
     <AssemblyName>NutriCity</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort>
-    </IISExpressSSLPort>
-    <IISExpressAnonymousAuthentication />
-    <IISExpressWindowsAuthentication />
-    <IISExpressUseClassicPipelineMode />
+    <IISExpressSSLPort>44305</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -224,10 +223,8 @@
     <Content Include="AboutUs.Master" />
     <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-
     <Content Include="Images\dp\alan.jpeg" />
     <Content Include="Images\dp\tk.jpeg" />
-
     <Content Include="Images\AFD-WW3-fruit-and-veg-box.png" />
     <Content Include="Images\favicon.jpg" />
     <Content Include="Images\favicon.png" />
