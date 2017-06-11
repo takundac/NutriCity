@@ -55,9 +55,9 @@ namespace NutriCity
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            app.UseFacebookAuthentication(
-               appId: "312605972494678",
-               appSecret: "43bc5fd54c391c75a3887fd85f4dd18f");
+            //app.UseFacebookAuthentication(
+              // appId: "312605972494678",
+               //appSecret: "43bc5fd54c391c75a3887fd85f4dd18f");
 
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
