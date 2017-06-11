@@ -6,8 +6,23 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <section>
         <div>
+            <%-- <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="ProductID" DataSourceID="SqlDataSource1">
+                        <Columns>
+                            <asp:BoundField DataField="ProductID" HeaderText="ProductID" InsertVisible="False" ReadOnly="True" SortExpression="ProductID" />
+                            <asp:BoundField DataField="ProductName" HeaderText="ProductName" SortExpression="ProductName" />
+                            <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" />
+                            <asp:BoundField DataField="ImagePath" HeaderText="ImagePath" SortExpression="ImagePath" />
+                            <asp:BoundField DataField="UnitPrice" HeaderText="UnitPrice" SortExpression="UnitPrice" />
+                            <asp:BoundField DataField="CategoryID" HeaderText="CategoryID" SortExpression="CategoryID" />
+                        </Columns>
+                    </asp:GridView>
+             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NutriCity %>" SelectCommand="SELECT * FROM [Products]"></asp:SqlDataSource>--%>
             <hgroup>
-                <h2><%: Page.Title %></h2>
+                <h2><%: Page.Title %>
+                </h2>
+          
             </hgroup>
 
             <asp:ListView ID="productList" runat="server"

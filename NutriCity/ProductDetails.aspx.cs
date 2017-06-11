@@ -20,6 +20,7 @@ namespace NutriCity
         [QueryString("ProductID")] int? productId,
         [RouteData] string productName)
         {
+            
             var _db = new NutriCity.Models.ProductContext();
             IQueryable<Product> query = _db.Products;
             if (productId.HasValue && productId > 0)
