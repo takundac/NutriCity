@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/AboutUs.Master" AutoEventWireup="true" CodeBehind="PrivacyPolicy.aspx.cs" Inherits="NutriCity.PrivacyPolicy" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <link href="~/css/bootstrapTheme.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <div class="page-agreement">
         <div class="container">
             <div class="row">
@@ -11,7 +13,7 @@
 
                         <p>Last updated: June 11, 2017</p>
 
-                        <p>NutriCity ("us", "we", or "our") operates the http://localhost:53909/ website (the "Service").</p>
+                        <p>NutriCity ("us", "we", or "our") operates the website (the "Service").</p>
 
                         <p>This page informs you of our policies regarding the collection, use and disclosure of Personal Information when you use our Service.</p>
 
@@ -62,9 +64,37 @@
 
                         <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
 
-                        <h2>Contact Us</h2>
+                        <!--<h2>Contact Us</h2>
 
-                        <p>If you have any questions about this Privacy Policy, please contact us.</p>
+                        <p>If you have any questions about this Privacy Policy, please contact us.</p>-->
+                        <!-- Container (Contact Section) -->
+        <div id="contact" class="container-fluid bg-grey">
+            <h2 class="text-center">CONTACT</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <p>Contact us and we'll get back to you within 24 hours.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>CapeTown South Africa </p>
+                    <p><span class="glyphicon glyphicon-phone"></span>+00 1515151515</p>
+                    <p>help@Nutricity.co.za</p>
+                </div>
+                <div class="col-sm-7 slideanim">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-success pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
                     </div>
 
                 </div>
