@@ -1,19 +1,20 @@
 body {
     font: 400 15px Lato, sans-serif;
+    padding-top: 100px;
     line-height: 1.8;
     color: #fff;
 }
 
 .siteMaster {
-    color:green;
+    color:#4CB050;
 }
 
 .siteMaster:active{
-    color:green;
+    color:#4CB050;
 }
 
 .siteMaster:hover{
-    color:green;
+    color:#4CB050;
 }
 
 .addToCart {

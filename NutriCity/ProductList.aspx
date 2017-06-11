@@ -6,8 +6,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <section>
         <div>
+             <asp:TextBox ID="TextBox1" runat="server" OnTextChanged="TextBox1_TextChanged"></asp:TextBox>
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Search" />
+                    <asp:GridView ID="GridView1" runat="server">
+                    </asp:GridView>
             <hgroup>
-                <h2><%: Page.Title %></h2>
+                <h2><%: Page.Title %>
+                </h2>
+          
             </hgroup>
 
             <asp:ListView ID="productList" runat="server"

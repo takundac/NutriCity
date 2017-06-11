@@ -209,10 +209,7 @@
     <Content Include="Checkout\CheckoutReview.aspx" />
     <Content Include="Checkout\CheckoutStart.aspx" />
     <Content Include="Content\bootstrap.css" />
-
     <Content Include="Content\material-kit.css" />
-
-
     <Content Include="css\bootstrapTheme.css" />
     <Content Include="css\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -230,6 +227,8 @@
     <Content Include="Images\favicon.jpg" />
     <Content Include="Images\favicon.png" />
     <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\nlogo.jpg" />
     <Content Include="Images\placehold.png" />
     <Content Include="ProductDetails.aspx" />
     <Content Include="ProductList.aspx" />

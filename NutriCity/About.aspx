@@ -108,7 +108,7 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="thumbnail">
-                        <p><strong>Nasiha</strong></p>
+                        <p><strong>Nasiha Ally</strong></p>
                     </div>
                 </div>
             </div>
