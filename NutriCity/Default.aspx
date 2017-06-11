@@ -84,7 +84,9 @@
     </div>
     <br />
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/p4sObSKd3yU" class="video"></iframe>
+    <div id="video" class="=container-fluid">
+            <iframe width="1100" height="500" src="https://www.youtube.com/embed/p4sObSKd3yU" class="video"></iframe>
+    </div>
     <script>
             $(document).ready(function () {
                 // Add smooth scrolling to all links in navbar + footer link

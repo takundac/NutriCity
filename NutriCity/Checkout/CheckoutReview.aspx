@@ -37,5 +37,5 @@
     </asp:DetailsView>
     <p></p>
     <hr />
-    <asp:Button ID="CheckoutConfirm" runat="server" Text="Complete Order" OnClick="CheckoutConfirm_Click" />
+    <asp:Button ID="CheckoutConfirm" runat="server" Text="Complete Order" OnClick="CheckoutConfirm_Click" CssClass="btn btn-success" />
 </asp:Content>

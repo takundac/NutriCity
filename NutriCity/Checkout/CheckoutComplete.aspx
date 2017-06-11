@@ -7,5 +7,5 @@
     <h3>Thank You!</h3>
     <p></p>
     <hr />
-    <asp:Button ID="Continue" runat="server" Text="Continue Shopping" OnClick="Continue_Click" />
+    <asp:Button ID="Continue" runat="server" Text="Continue Shopping" OnClick="Continue_Click" CssClass="btn btn-success" />
 </asp:Content>
