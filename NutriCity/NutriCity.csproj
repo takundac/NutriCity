@@ -200,7 +200,7 @@
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
     <Content Include="AddToCart.aspx" />
-    <Content Include="Account\Admin\AdminPage.aspx" />
+    <Content Include="Admin\AdminPage.aspx" />
     <Content Include="Catalog\Images\560503_EA.jpg" />
     <Content Include="Catalog\Images\apple.jpg" />
     <Content Include="Catalog\Images\appleJuice.jpg" />
@@ -300,7 +300,7 @@
     </Content>
     <Content Include="Checkout\Web.config" />
     <Content Include="AboutUs.Master" />
-    <Content Include="Account\Admin\Web.config" />
+    <Content Include="Admin\Web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\dp\alan.jpeg" />
     <Content Include="Images\dp\Keegz.jpg" />
@@ -488,11 +488,11 @@
     <Compile Include="AddToCart.aspx.designer.cs">
       <DependentUpon>AddToCart.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Account\Admin\AdminPage.aspx.cs">
+    <Compile Include="Admin\AdminPage.aspx.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Account\Admin\AdminPage.aspx.designer.cs">
+    <Compile Include="Admin\AdminPage.aspx.designer.cs">
       <DependentUpon>AdminPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
