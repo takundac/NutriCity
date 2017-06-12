@@ -53,8 +53,8 @@ public class NVPAPICaller
             host = host_SB;
         }
 
-        string returnURL = "https://localhost:44305/Checkout/CheckoutReview.aspx";
-        string cancelURL = "https://localhost:44305/Checkout/CheckoutCancel.aspx";
+        string returnURL = "http://localhost:53909/Checkout/CheckoutReview.aspx";
+        string cancelURL = "http://localhost:53909/Checkout/CheckoutCancel.aspx";
 
         NVPCodec encoder = new NVPCodec();
         encoder["METHOD"] = "SetExpressCheckout";
